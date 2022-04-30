@@ -1,0 +1,140 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  /* line-height: 20px; */
+  color: rgb(35, 90, 124);
+  background: rgb(179, 222, 249);
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  border-radius: 200px;
+  border-left: 5px solid rgb(148, 182, 211);
+  box-shadow: 4px 4px 9px -4px rgba(55, 100, 135, 0.2);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Tenor Sans", sans-serif;
+}
+h1 {
+  padding-bottom: 5px;
+  /* border-bottom: 5px solid rgb(148, 182, 211); */
+}
+a {
+  color: rgb(35, 90, 124);
+  text-decoration: none;
+
+  /* transition: all 0.2s; */
+}
+/* значения при наведении курсора */
+a:hover {
+  color: rgb(247, 247, 247);
+  /* font-size: 2em; */
+}
+
+.card1 {
+  border-left: 5px solid rgb(148, 182, 211);
+  border-radius: 10px;
+  background-color: rgb(174, 209, 240);
+  padding-top: 3px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin: 15px 0px;
+}
+.card2 {
+  border-left: 5px solid rgb(148, 182, 211);
+  border-radius: 10px;
+  background-color: rgb(174, 209, 240);
+  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 15px 0px;
+}
+.table {
+  width: 100%;
+}
+.table thead {
+  background-color: rgb(230, 244, 253);
+  text-align: left;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+td:nth-child(3) {
+  color: rgb(136, 168, 196);
+}
+.card3 {
+  border-left: 5px solid rgb(148, 182, 211);
+  border-radius: 10px;
+  background-color: rgb(216, 231, 244);
+  padding-top: 3px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 15px 0px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.info {
+  margin-bottom: 20px;
+  
+.info-text {
+  margin-left: 40px;
+}
+
+.form label {
+  display: block;
+  font-size: 15px;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-row .form {
+  margin-right: 20px;
+  width: 50%;
+}
+.form-row .form:last-child {
+  margin-right: 0;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(136, 168, 196);
+  color: rgb(35, 90, 124);
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.btn {
+  background: rgb(148, 182, 211);
+  padding: 15px 40px;
+  color: rgb(230, 244, 253);
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 4px 4px 9px -4px rgba(55, 100, 135, 0.2);
+}
+.btn:hover {
+  opacity: 0.8;
+  color: rgb(29, 97, 139);
+}
